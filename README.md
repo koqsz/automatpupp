@@ -8,7 +8,7 @@ I'm looking for golang installer and nginx installer at puppetforge, but I can't
 - cd automatpupp
 - cp puppet-modules.tar.gz /etc/puppetlabs/code/environments/production/modules
 - cd /etc/puppetlabs/code/environments/production/modules
-- tar -xzf puppet-modules.tar.gz  <-- You will see 2 directory **( kcs-goinstall, kcs-lbinstall )**
+- tar -xzf puppet-modules.tar.gz     <-- You will see 2 directory **( kcs-goinstall, kcs-lbinstall )**
 - **Change the IP addresses of your webservers in the ./kcs-lbinstall/files/lb.conf file!!!**
 - Open the Puppet Server webpage.
 - Create 2 node groups ( the groups names is your choises! )
