@@ -1,4 +1,4 @@
-#It will works under **Centos 7** for clients op. system and Puppet Enterprise 2015.3.2 edition for Puppet server. On the Centos 7 client you **must enabled the epel repo**, because it need for nginx install! I looking for golang installer and nginx installer at puppetforge, but I can't find perfect solution for me, that's why I write 2 module for solve the problems :)
+##It will works under **Centos 7** for clients op. system and Puppet Enterprise 2015.3.2 edition for Puppet server. On the Centos 7 client you **must enabled the epel repo**, because it need for nginx install! I looking for golang installer and nginx installer at puppetforge, but I can't find perfect solution for me, that's why I write 2 module for solve the problems :)
 
 ##**INSTALL:**
 - Create a directory on Puppet server a directory to clone this git repo
@@ -17,7 +17,7 @@
 
 The nginx and the go test file will run automatically!!
 
-##*TEST*##
+##TEST##
 - Open a webbrowser
 - http://ipaddressofloadbalancer
 - push refresh button ( once the first webserver hostname you will see, after refresh the second webserver hostname you will see)
