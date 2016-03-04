@@ -20,7 +20,7 @@ The nginx and the go test file will run automatically!!
 
 ##TEST##
 - Open a webbrowser
-- http://ipaddressofloadbalancer
+- http://ip-address-of-loadbalancer
 - push refresh button ( once the first webserver hostname you will see, after refresh the second webserver hostname you will see)
 
 If you shutdown one of the webserver you will see only the other webserver hostname on the webpage!
